@@ -1,0 +1,92 @@
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+nav{
+    z-index: 999;
+}
+nav ul{
+    margin-right: 10%;
+}
+nav ul li a{
+    color: #515b69;
+    font-weight: 700;
+    font-size: 16px;
+}
+nav .dropdown-toggle{
+     background-color: #204D74;
+     font-size: 14px;
+}
+nav .dropdown-toggle::after{
+     margin-right: 10px;
+}
+ nav .dropdown-item{
+    text-align: left;
+ }
+.hello{
+    background-color: #ebebeb;
+    text-align: right;
+}
+.hello .paragraphs {
+    background-color: #EBEBEB;
+}
+.hello .row ,  .hello .detailes .slide{
+    background-color: #fff;
+}
+.hello h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.hello p{
+    color: #333;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.hello .form {
+    background: #f3f3f3;
+    border: solid 1px #f3f3f3;
+}
+.hello .form .inter , .hello .detailes .program{
+    background-color:  #14A9DE;
+}
+.form .input-group{
+    width: 90%;
+    padding-top:  15px;
+}
+.hello .form span{
+    background-color: #fff;
+}
+.hello .form a{
+    text-decoration: none;
+    text-align: center;
+}
+.hello .link1{
+    background-color: #394554;
+}
+.hello .link1:hover{
+    background-color: #444849;
+}
+.hello .link2{
+    background-color:  #253C8C;
+}
+.hello .link2:hover{
+    background-color: #444849;
+}
+.hello .detailes table , .hello .detailes table th , .hello .detailes table td{
+    border: solid 1px #ddd;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px;
+}
+.hello .detailes table .active{
+    background-color: #F9F9F9;
+}
+footer{
+    background-color: #404040;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+footer a{
+    color: #fff;
+}

@@ -1,0 +1,244 @@
+
+
+body {
+  font-family: sky;
+  box-sizing: border-box;
+  font-family: sky;
+  background-color: #666;
+}
+
+/* a:link, a:visited {
+  transition: color 0.15s ease 0s, border-color 0.15s ease 0s, background-color 0.15s ease 0s;
+} */
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.quantity__plus{
+  background-color: #5CB85C;
+  color: #fff;
+}
+.quantity__minus{
+  background-color: #D9534F;
+  color: #fff;
+}
+.quantity__minus,
+.quantity__plus {
+  display: block;
+  width: 32px;
+  height: 23px;
+  margin: 0;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  line-height: 23px;
+}
+
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+
+}
+.quantity__minus span , .quantity__plus span{
+  color: #fff;
+}
+
+.quantity__input {
+  width: 32px;
+  height: 23px;
+  margin: 0;
+  border: none;
+  padding: 0;
+  text-align: center;
+  background-color: #F9F9F9;
+  color: black;
+}
+
+.price{
+  font-size: 30.835px;
+    line-height: 38.544px;
+    color: #14A9DE;
+}
+.choose{
+  color: #333333;
+  font-size: 22px;
+  font-size: 22px;
+}
+.dash{
+  color: #ccc;
+}
+.modal-body .table thead tr th{
+  color: #515151;
+  font-size: 16px;
+}
+.erd
+{
+width: 20%;
+background-color:  #253C8C;
+text-align: center;
+padding-top: 1%;
+padding-bottom: 4%;
+
+}
+.erd .advanced
+{
+border-bottom: 1px dashed rgb(255, 255, 255);
+  padding: 4px 8px;
+  font-size: 22px;
+  color: rgb(255, 255, 255) ;
+ 
+}
+.erd a
+{
+color:  #253C8C ;
+background-color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 5% 25%;
+font-size: 14px;
+
+}
+
+.erd
+{
+width: 20%;
+background-color:  #253C8C;
+text-align: center;
+
+}
+.erd-bg
+{
+background-color:  #253C8C;
+}
+.link1
+{
+
+margin-top: 40%;
+}
+.firstyearprice
+{
+font-size: 12px;
+background-color: #66AF53;
+color:rgb(255, 255, 255) ;
+}
+.erd-bgg
+{
+background-color:  #253C8C;
+}
+.erddd
+{
+width: 40%;
+background-color: rgb(82, 92, 107);
+
+}
+.erddd p
+{
+color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.erddd .w-50  span
+{
+font-size: 12px;
+}
+.advantage
+{
+background: #14A9DE;
+text-align: right;
+font-weight: bold;
+}
+.advantage p
+{
+color: #fff;
+margin-top: 1%;
+}
+.tablee
+{
+direction: rtl;
+text-align: center;
+margin-bottom: 0;
+}
+.fa-check
+{
+color: #5CB85C;
+font-size: 16px;
+}
+.fa-times
+{
+color:#D9534F;
+font-size: 16px;
+}
+.tablee p
+{
+color: #515151;
+}
+.table-plus
+{
+background-color: #14A9DE;
+padding: 1%;
+color: #fff;
+}
+.tablee th
+{
+  width: 40%;
+text-align: right;
+}
+.tablee th td{
+  width: 20%;
+}
+.overFlow{
+  overflow: auto;
+}
+.sticky-header{
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+.sticky-header .new{
+  font-size: 14px;
+}
+
+@supports (position: sticky) {
+  .is-sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+  }
+}
+
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}

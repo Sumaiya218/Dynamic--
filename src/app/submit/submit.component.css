@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: sky;
+}
+.background{
+    height: 150px;
+}
+.background img{
+    height: 100%;
+    width: 100%;
+}
+.background .caption{
+    top: 40%;
+    width: 100%;
+
+}
+.background .caption p{
+    color: #68d7e7;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0;
+    font-size: 22px;
+}
+.form{
+    width: 50%;
+    border: solid 1px #CCCC;
+    box-shadow: 0px 1px 1px 1px #ccc;
+}
+.form h2{
+    font-size: 1.8000000000000003em;
+    color: #666666;
+}
+.form h3{
+    color: #253C8C;
+    font-size: 1.2999999999999998em;
+}
+form{
+    direction: rtl;
+    text-align: right;
+}
+form .form-group{
+    width: 48%;
+}
+form  .dist{
+    width: 32%;
+}
+form .distinctive{
+    width: 100%;
+}
+form label{
+    font-weight: 600;
+    color: #666666;
+    font-size: 100%;
+}
+form span{
+    color: #FF0000;
+}
+form select , form input , form textarea{
+ background-color: #fafafa;
+}
+.form .qualif{
+    text-align: right;
+    font-size: 1.2999999999999998em;
+    width: 100%;
+    color: #666666;
+    background-color: #F7F7F7;
+}
+form .file{
+    text-shadow: 1px 0px 3px #14A9DE;
+    font-weight: 700;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+}
+form .dis{
+    background-color: #fff;
+}
+.form a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+@media only screen and (max-width: 800px){
+    form .dist {
+        width: 31%;
+    }
+    .form{
+        width: 80%;
+    }
+}

@@ -1,0 +1,208 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: sky;
+}
+
+div.background {
+    position: relative;
+    height: 250px;
+   
+  }
+  div.background img {
+    width: 100%;
+   height: 100%;
+   
+  }
+  
+  div.transbox {
+    position: absolute;
+    opacity: 0.4;
+    top:0;
+    width: 100%;
+    height: 100%;
+  }
+  div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:10%;
+  }
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  .dafater h3
+  {
+      color: #14A9DE;
+      
+
+  }
+  .dafater p
+  {
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fff;
+  }
+  .gears
+  {
+    margin-top: 5%;
+  }
+  .gears h2 
+  {
+    font-size: 18px;
+    color: #14A9DE;
+  }
+  .gears p
+  {
+    color: #8d8d8d;
+  }
+  .gears1
+  {
+    text-align: right;
+
+  }
+  .ccard
+  {
+    background-color: #f4f4f4;
+    border: none;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  .choice
+  {
+    text-align: center;
+    margin-top: 10%;
+    border-bottom: 2px solid #f4f4f4;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .choice h3 
+  {
+    color: #595959;
+    font-size: 22px;
+    margin-bottom: 3%;
+   
+  }
+  .map
+  {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .map h4 
+  {
+    font-size: 18px;
+    line-height: 33.354px;
+    color: #14A9DE;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .map p
+  {
+    font-size: 14px;
+    color: #8d8d8d;
+  }
+  .map span
+  {
+    color: #7e7e7e;
+    font-style: italic;
+    margin-top: 5%;
+
+  }
+  .role
+  {
+    text-align: center;
+    margin-top: 10%;
+    direction: rtl;
+    border-bottom: 2px solid #f4f4f4;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .role h3
+  {
+    font-size: 18px;
+    color: #14A9DE;
+    font-weight: 400;
+  }
+  .role p
+  {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+  }
+
+
+  .up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+ 
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @media only screen and (max-width: 995px)
+  {
+    .man
+    {
+      display : none ;
+    }
+    div.transbox1 {
+     position: absolute;
+     width: 100%;
+     top:25%;
+    
+    
+   }
+   .dafater
+   {
+       text-align: right;
+       margin-top: 3%;
+   }
+ 
+   .dafater h3{
+     font-size: 22px;
+   }
+   .dafater p{
+     font-size: 14px;
+   }
+   div.transbox1{
+     top: 6%;
+   }
+
+ }
+ @media only screen and (max-width: 800px){
+  .gears{
+    display: flex;
+  }
+
+   .gears img{
+     width: 30%;
+     position: relative;
+     left: 35%;
+     margin: 10px 0px;
+   }
+
+ }
+ 

@@ -1,0 +1,183 @@
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+div.background {
+    position: relative;
+   height: 300px;
+  }
+  div.background img {
+    width: 100%;
+   
+   height: 100%;
+  }
+  
+  div.transbox {
+    position: absolute;
+    opacity: 0.7;
+    top:0;
+    width: 100%;
+    height: 100%;
+  }
+  div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:20%;
+   
+   
+  }
+    .dafater
+    {
+        text-align: right;
+        margin-top: 3%;
+    }
+    .dafater h3
+    {
+        color: #68d7e7;
+        font-size: 24px;
+        font-weight: 400;
+  
+    }
+  
+
+.search p{
+    color: #68d7e7;
+    font-size: 22px;
+}
+
+.info   .row1 {
+    background-color: #F9F9F9;
+    border: solid 1px #eaeaea;
+    box-shadow: 1px 1px 11px #f3f3f3;
+    margin: 0px 1px;
+}
+.info .section select , .info .section input{
+    font-size: 14px;
+}
+.info .row1 a{
+    text-decoration: none;
+}
+.info .section .delete{
+    color: #333;
+    background-color: #fff;
+    border:solid 1px #ccc;
+    font-size: 14px;
+}
+.info .section .delete:hover{
+    background-color: #E6E6E6;
+}
+.info .section .sea{    
+    font-size: 14px;
+    color: #fff;
+    background-color:#14A9DE;
+    border: solid 1px#14A9DE;
+}
+.info .section .sea:hover{
+    background-color: #286090;
+}
+.info .row .item{
+    background-color: #F9F9F9;
+    border: solid 1px #eaeaea;
+    text-align: right;
+}
+.info .row .item h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-weight: normal;
+    color: rgb(36, 178, 199);
+}
+.info .row .item a{
+    color: #253C8C;
+    font-size: 85%;
+}
+.info .row .item {
+    color: #333;
+    font-size: 16px;
+}
+.info .row .item .ul a{
+    color: #787878;
+    font-size: 14px;
+}
+.info .row .item .ul i{
+    color: #333;
+    margin-left: 5px;
+}
+
+.info span{
+    color: #777;
+    font-size: 16px;
+}
+
+.info .links ul li{
+    list-style: none;
+}
+.info .links ul li a{
+    text-decoration: none;
+    border: solid 0.5px #ddd;
+    padding: 8px 15px;
+    color: #14A9DE;
+}
+.info .links ul li .active{
+    background-color: #14A9DE;
+    border: solid 0.5px #14A9DE;
+}
+.info .links ul li .not-active:hover{
+    background-color: #EEEEEE;
+}
+
+
+.search {
+    margin-top: 0px;
+}
+
+
+
+
+
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .up #button i:hover {
+    cursor: pointer;
+    background-color:#14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+
+@media only screen and (max-width: 800px)
+{
+  .man
+  {
+    display : none ;
+  } 
+  div.transbox1 {
+   position: absolute;
+   width: 100%;
+   top:30%;
+  
+  
+ }
+
+ }
+

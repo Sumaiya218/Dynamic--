@@ -1,0 +1,306 @@
+
+#main, #slidingbar, .fusion-footer-copyright-area, .fusion-footer-widget-area, .fusion-page-title-bar, .fusion-secondary-header, .header-v4 #small-nav, .header-v5 #small-nav, .sticky-header .sticky-shadow, .tfs-slider .slide-content-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.layout-wide-mode .fusion-page-title-row {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto ;
+}
+
+.fusion-page-title-row {
+    max-width: 1170px !important;
+}
+
+
+.top{
+    margin-top: 115px;
+}
+.fusion-page-title-bar {
+    border-color: rgba(255,255,255,0);
+    border: 0;
+    background-color: #f4f6f8;
+    height: 125px;
+}
+
+.fusion-page-title-wrapper {
+    display: table;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.fusion-page-title-captions {
+    display: table-cell;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.fusion-page-title-bar-center .fusion-page-title-captions {
+    text-align: center;
+    width: auto;
+}
+
+.fusion-page-title-bar h1, .fusion-page-title-bar h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #343333;
+}
+
+.fusion-page-title-bar h1 {
+    font-size: 32px;
+    line-height: normal;
+}
+
+.fusion-modal h1, .fusion-page-title-bar h1, .fusion-widget-area h1, .post-content h1 {
+    font-family: 'Sky';
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0;
+}
+
+.fusion-page-title-bar h1 {
+    color: #68d7e7 !important;
+}
+
+.fusion-page-title-bar h1 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#content {
+    width: 71.1702128%;
+    float: left;
+    min-height: 1px;
+}
+
+body.has-sidebar #content {
+    width: calc(100% - 23% - 80px);
+}
+
+
+
+.post-content p, .fusion-post-content p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.fusion-modal h5, .fusion-post-content h5, .fusion-title h5, .fusion-widget-area h5, .post-content h5, .title h5 {
+    color: #24b2c7;
+}
+#main .about-author .title a:hover, #main .post h2 a:hover, #slidingbar-area .fusion-accordian .panel-title a:hover, #slidingbar-area .widget li.recentcomments:hover:before, #slidingbar-area ul li a:hover, #wrapper .fusion-widget-area .current-menu-item>a, #wrapper .fusion-widget-area .current-menu-item>a:before, #wrapper .fusion-widget-area .current_page_item>a, #wrapper .fusion-widget-area .current_page_item>a:before, #wrapper .jtwt .jtwt_tweet a:hover, .content-box-percentage, .fusion-accordian .panel-title a:hover, .fusion-content-widget-area .widget .recentcomments:hover:before, .fusion-content-widget-area .widget li a:hover, .fusion-content-widget-area .widget li a:hover:before, .fusion-content-widget-area .widget_archive li a:hover:before, .fusion-content-widget-area .widget_categories li a:hover, .fusion-content-widget-area .widget_categories li a:hover:before, .fusion-content-widget-area .widget_links li a:hover:before, .fusion-content-widget-area .widget_nav_menu li a:hover:before, .fusion-content-widget-area .widget_pages li a:hover:before, .fusion-content-widget-area .widget_recent_entries li a:hover:before, .fusion-copyright-notice a:hover, .fusion-date-and-formats .fusion-format-box i, .fusion-filters .fusion-filter.fusion-active a, .fusion-footer-widget-area .fusion-accordian .panel-title a:hover, .fusion-footer-widget-area .fusion-tabs-widget .tab-holder .news-list li .post-holder a:hover, .fusion-footer-widget-area .widget li a:hover:before, .fusion-footer-widget-area .widget li.recentcomments:hover:before, .fusion-footer-widget-area a:hover, .fusion-footer-widget-area ul li a:hover, .fusion-login-box a:hover, .fusion-popover, .fusion-read-more:hover:after, .more a:hover:after, .pagination-next:hover:after, .pagination-prev:hover:before, .price>.amount, .price ins .amount, .project-content .project-info .project-info-box a:hover, .rtl .fusion-read-more:hover:before, .rtl .more a:hover:before, .side-nav .arrow:hover:after, .side-nav li.current_page_ancestor>a, .side-nav ul>li.current_page_item>a, .single-navigation a[rel=next]:hover:after, .single-navigation a[rel=prev]:hover:before, .slidingbar-area .widget li a:hover:before, .slidingbar-area a:hover, .star-rating span:before, .star-rating:before, .tooltip-shortcode, h5.toggle:hover a, span.dropcap {
+    color: #24b2c7;
+}
+
+.fusion-modal h5, .fusion-widget-area h5, .post-content h5 {
+    font-family: 'Sky';
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0;
+    font-size: 22px;
+}
+
+.fusion-title-size-five, h5 {
+    margin-top: 1.37em;
+    margin-bottom: 1.37em;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#reviews #comments>h2, #wrapper .fusion-tabs-widget .tab-holder .news-list li .post-holder .meta, #wrapper .meta, .fusion-blog-timeline-layout .fusion-timeline-date, .fusion-main-menu .fusion-custom-menu-item-contents, .fusion-rollover .price .amount, .post .post-content, .post-content blockquote, .project-content .project-info h4, .review blockquote div, .search input, .sidebar .fusion-tabs-widget .tab-holder .tabs li a, .sidebar .jtwt, .sidebar .widget .recentcomments, .sidebar .widget_archive li, .sidebar .widget_categories li, .sidebar .widget_layered_nav li, .sidebar .widget_links li, .sidebar .widget_meta li, .sidebar .widget_nav_menu li, .sidebar .widget_pages li, .sidebar .widget_product_categories li, .sidebar .widget_recent_entries li, .title-row, body, body .sidebar .fusion-tabs-widget .tab-holder .tabs li a {
+    color: #8d8d8d;
+}
+
+#nav ul li ul li a, #reviews #comments>h2, #side-header .fusion-contact-info, #side-header .header-social .top-menu, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li>a, #wrapper #sticky-nav ul li ul li>a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-accordian .panel-body, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu>a:hover, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .ticket-selector-submit-btn[type=submit], body {
+    line-height: 1.68;
+}
+
+#nav ul li ul li a, #reviews #comments>h2, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li>a, #wrapper #sticky-nav ul li ul li>a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-blog-shortcode .fusion-timeline-date, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-load-more-button, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu>a:hover, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .ticket-selector-submit-btn[type=submit], .wpcf7-form input[type="submit"], body {
+    font-family: 'Sky';
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+#main .fusion-row, #slidingbar-area .fusion-row, .fusion-footer-copyright-area .fusion-row, .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, .tfs-slider .slide-content-container .slide-content {
+    max-width: 1170px;
+}
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+
+body.has-sidebar #main .sidebar {
+    width: 23%;
+}
+
+
+#main .sidebar {
+    background-color: rgba(255,255,255,0);
+    padding: 0;
+}
+
+.side-nav-right .side-nav {
+    border-right: 1px solid #ededed;
+}
+
+#customer_login .col-1, #customer_login .col-2, #customer_login h2, #customer_login_box, #reviews li .comment-text, #small-nav, #wrapper .fusion-tabs-widget .tab-holder, #wrapper .side-nav li a, #wrapper .side-nav li.current_page_item li a, .avada-skin-rev, .chzn-container-single .chzn-single, .chzn-container-single .chzn-single div, .chzn-drop, .commentlist .the-comment, .es-carousel-wrapper.fusion-carousel-small .es-carousel ul li img, .fusion-accordian .fusion-panel, .fusion-author .fusion-author-social, .fusion-blog-layout-grid .post .flexslider, .fusion-blog-layout-grid .post .fusion-content-sep, .fusion-blog-layout-grid .post .post-wrapper, .fusion-content-widget-area .widget .recentcomments, .fusion-content-widget-area .widget li a, .fusion-content-widget-area .widget li a:before, .fusion-content-widget-area .widget_archive li, .fusion-content-widget-area .widget_categories li, .fusion-content-widget-area .widget_links li, .fusion-content-widget-area .widget_meta li, .fusion-content-widget-area .widget_nav_menu li, .fusion-content-widget-area .widget_pages li, .fusion-content-widget-area .widget_recent_entries li, .fusion-counters-box .fusion-counter-box .counter-box-border, .fusion-filters, .fusion-hide-pagination-text .pagination-next, .fusion-hide-pagination-text .pagination-prev, .fusion-layout-timeline .post, .fusion-layout-timeline .post .flexslider, .fusion-layout-timeline .post .fusion-content-sep, .fusion-portfolio .fusion-portfolio-boxed .fusion-content-sep, .fusion-portfolio .fusion-portfolio-boxed .fusion-portfolio-post-wrapper, .fusion-portfolio-one .fusion-portfolio-boxed .fusion-portfolio-post-wrapper, .fusion-tabs.vertical-tabs.clean .nav-tabs li .tab-link, .fusion-timeline-arrow, .fusion-timeline-date, .input-radio, .ls-avada, .page-links a, .pagination a.inactive, .panel.entry-content, .post .fusion-meta-info, .price_slider_wrapper, .progress-bar, .project-content .project-info .project-info-box, .rtl .side-nav, .search-page-search-form, .sep-dashed, .sep-dotted, .sep-double, .sep-single, .side-nav, .side-nav li a, .single-navigation, .table, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th, .table-1 table, .table-1 table th, .table-1 tr td, .table-2 table thead, .table-2 tr td, .tabs-vertical .tabs-container .tab_content, .tabs-vertical .tabset, .tagcloud a, .tkt-slctr-tbl-wrap-dv table, .tkt-slctr-tbl-wrap-dv tr td, h5.toggle.active+.toggle-content, tr td {
+    border-color: #dbe2ea;
+}
+
+.side-nav-right .side-nav {
+    border-left: 1px solid #ededed;
+}
+
+.side-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ededed;
+    margin-bottom: 20px;
+}
+
+.side-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper .side-nav li.current_page_item a {
+    border-right-color: #24b2c7;
+    border-left-color: #24b2c7;
+}
+
+
+#wrapper .side-nav li.current_page_item a {
+    border-right-color: #24b2c7;
+    border-left: 0;
+}
+.sidebar {
+    width: 23%;
+    float: right;
+}
+.side-nav li a{
+    border-color: #dbe2ea;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.side-nav li a {
+    border-bottom: 1px solid #ededed;
+    display: block;
+    height: auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 39px;
+    color: #333;
+}
+.side-nav li a {
+    line-height: 1.69em;
+    padding: 8px 0;
+}
+.side-nav-right .side-nav li a {
+    padding-right: 25px;
+}
+
+.rtl .side-nav-right .side-nav li a {
+    padding-left: 0;
+}
+
+.side-nav .arrow {
+    display: inline;
+    margin-left: 0;
+}
+
+#main {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.side-nav-right .side-nav .arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.side-nav-right .side-nav .arrow:after {
+    /* content: '\f060'; */
+}
+.side-nav .arrow:after {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'icomoon';
+}
+
+.rtl .side-nav-right .side-nav .children {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.side-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+li {
+    text-align: -webkit-match-parent;
+}

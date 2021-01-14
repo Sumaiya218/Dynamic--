@@ -1,0 +1,166 @@
+*
+{
+  direction: rtl;
+  box-sizing: border-box;
+}
+body{
+  font-family: sky;
+}
+
+div.background {
+  position: relative;
+}
+div.background .back{
+    height: 300px;
+    width: 100%;
+}
+div.transbox {
+  position: absolute;
+  background-color:#000000;
+  opacity: 0.7;
+  top:0;
+  width: 100%;
+}
+div.transbox1 {
+  position: absolute;
+  width: 100%;
+  top:20%; 
+}
+.dafater
+{
+    text-align: right;
+    margin-top: 3%;
+}
+.dafater h3
+{
+    color: #14A9DE;
+}
+.dafater p
+{
+  color: #fff;
+}
+.system
+{
+  text-align: right;
+}
+.system p
+{
+  color: #8d8d8d;
+  text-align: justify;
+  font-size: 16px;
+}
+.drow
+{
+  text-align: center;
+    font-size: 16px;
+    color: #14A9DE;
+    margin-top: 3%;
+}
+.service
+{
+  text-align: right;
+}
+.service ol li
+{
+  color: #8d8d8d;
+}
+.try a
+{
+  background-color: #14A9DE;
+
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+ font-size: 22px;
+}
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 800px)
+ {
+   .lampa
+   {
+     display : none ;
+   }
+   div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:10%;
+   
+   
+  }
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  .dafater h3
+  {
+      color: #14A9DE;  
+  }
+  .dafater p
+  {
+    color: #fff;
+    font-size: 14px;
+  }
+  .first
+  {
+    order: 1;
+  }
+  .second
+  {
+    order: 2;
+  }
+  .third
+  {
+    order: 3;
+  }
+  .purple button
+{
+  width: 70%;
+  background-color: #775192;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: none;
+  margin-top: 10%;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #333333;
+  margin-top: -10px;
+  margin-left: 40%;
+}
+
+
+}

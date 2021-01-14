@@ -1,0 +1,468 @@
+<main class="pb-5" >
+  <div class="background">
+    <img class="back img-fluid" src="assets/image/projects-management-1.jpg"> 
+    <div class="transbox">
+    </div>
+    <div class="transbox1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <img style="width: 170px; top: 30px;" src="assets/image/faq.svg" class="img-fluid man position-relative">
+
+        </div>
+        <div class="col-md-8 col-sm-12 dafater">
+          <h3> الأسئلة الشائعة  </h3>
+          <p> لقد صممت Dynamic لتكون سهلة الاستخدام والتطبيق، وفرنا لك معها دليلا للإعداد والتهيئة بالإضافة لدليل مستفيض للاستخدام، وذلك حتى تقوم بتجهيزها بنفسك واستخدامها كما يروق لك، ولكن لأننا ندرك وجود فئة من العملاء تريد توفير الوقت والجهد، قمنا بتوفير هذه الخدمات الإضافية.</p>
+
+       </div>
+
+      </div>
+
+    </div>
+  </div></div>
+    
+   <div class="container py-5"> 
+          
+            
+          <div id="accordion"> 
+
+            <nav>
+              <ul>
+                <li><a (click)="allFunction()">All</a></li>
+                <li><a (click)="firstFunction()">أسئله أخرى</a></li>
+                <li><a (click)="secondFunction()" >أسئله تقنية</a></li>
+                <li><a (click)="thirdFunction()">الباقات والأسعار</a></li>
+                <li><a (click)="fourFunction()"> الخصوصية وأمن البيانات</a></li>
+                <li><a (click)="fiveFunction()">الدعم</a></li>
+                <li><a (click)="countFunction()">المحاسبة عن بعد</a></li>
+                <li><a (click)=" aboutFunction()">عن Dynamic</a></li>
+                <li><a (click)=" payFunction()">وسائل الدفع</a></li>
+                           
+               
+                
+              </ul>
+            </nav>
+              
+            <div class="card plus1" *ngIf="all || first d-flex"> 
+                  <a class="card-header collapsed card-link"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"> 
+                          <i class="fas fa-plus float-right ">
+                        </i>
+                        <p class="header-title  "> 
+                          ماهى هى خانه المبلغ المشطوب و ما فائدتها ؟</p> 
+                        </a> 
+                  <div id="collapseOne" class="collapse"
+                          data-parent="#accordion"> 
+                      <div class="card-body"> 
+                        خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                    فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                     في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                      </div> 
+                  </div> 
+              </div> 
+        
+
+            <div id="accordion"> 
+                <div class="card plus1"  *ngIf="all || first || five"> 
+                    <a class="card-header collapsed card-link"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"> 
+                            <i class="fas fa-plus float-right ">
+                          </i>
+                          <p class="header-title ">في حالة التعامل مع اكثر من عملة تنتج فروقات بسبب الرسوم البنكية وعدم استقرار سعر الصرف كيف اتعامل مع هذه الحالة ؟</p> 
+                      </a> 
+                    <div id="collapseTwo" class="collapse"
+                            data-parent="#accordion"> 
+                        <div class="card-body">  في حالة التعامل باكثر من عملة ينتج فروقات بسيطة بسبب التغير في سعر الصرف واضافة بعض الرسوم البنكية علي التحويلات<br> وهنا ننصح بأن تقوم بقسمة المبلغ الكلي للعملة الاساسية التي تستخدمها (مثلا الريال وهو المبلغ الاجمالي الذي خصمه البنك عند التحويل) علي سعر الصرف في هذا اليوم وسينتج عن هذه العملية المبلغ الحقيقي للعملة الاخرى الدولار حيث تقوم هنا باستخدام الناتج كمبلغ للدولار في الفاتورة
+                        </div> 
+                    </div> 
+                </div> 
+
+
+
+            <div id="accordion"> 
+                <div class="card plus1"  *ngIf="all || Second || five"> 
+                    <a class="card-header collapsed card-link"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"> 
+                            <i class="fas fa-plus float-right ">
+                          </i>
+                          <p class="header-title "> 
+                            هناك بريد الكترونى يتم إرساله لى  تحت عنوان ” Dynamic Scheduler Failure Report” و لا اعلم ما سبب ذلك؟</p> 
+                          </a> 
+                    <div id="collapseThree" class="collapse"
+                            data-parent="#accordion"> 
+                        <div class="card-body"> إذا كنت تواجه ذلك البريد الإلكترونى الذى يأتى بعنوان “Dynamic Scheduler Failure Report” فأعلم انك تواجه مشكلة ادخال بيانات بشكل خاطىْ فى اعدادات البريد الإلكترونى لذلك يقوم النظام بمحاولة إرسال البريد الإلكترونى بناء على البيانات المسجلة فى شاشة الاعدادات و عند محاولة الإرسال يجد ان هناك خطأ فى البيانات المدخلة لإعداد البريد الاإلكترونى فيقوم بإرسال البريد الموضح بالشكل التالى لمدراء النظام
+                        </div> 
+                        <div class="float-right">
+                          <img class="img-fluid "  src="assets/images/error (1).jpeg">
+                        </div>
+                        <div class="float-right dist">لذلك ولتفادى تلك المشكلة فيجب ان تقوم بمراجعة البيانات التى تم ادخالها كإعدادات للبريد الإلكترونى و تعديلها لتكون مدخلة بشكل صحيح من خلال منطقة إعدادات البريد الإلكترونى و الموجودة بدفتر الإعدادات : منطقة إعدادات البريد الإلكترونى و الموضحة بالشكل التالى</div>
+                        <div class="float-right">
+                          <img class="img-fluid "  src="assets/images/edad.jpeg">
+
+                        </div>
+                      </div> 
+                </div> 
+
+
+    <div id="accordion"> 
+        <div class="card plus1"  *ngIf="all || Second || five"> 
+            <a class="card-header collapsed card-link"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"> 
+                    <i class="fas fa-plus float-right ">
+                  </i>
+                  <p class="header-title "> 
+                    هل هناك حل لإضافة الفاصلة العلوية (‘)  دون اللجوء الى وضعها لكل خلية على حدة ؟</p> 
+                  </a> 
+            <div id="collapseFour" class="collapse"
+                    data-parent="#accordion"> 
+                <div class="card-body"> 
+                  <p>نعم هناك حل لذلك , يسعدنا ان نطلعكم على حل ذلك الموضوع و ذلك من خلال خاصية داخل ملف الاكسيل و التى تتيح إضافة الفاصلة العلوية (‘) لمجموعة خلايا دون اللجوء الى وضعها لكل خلية , لكى تقوم باستخدام الخاصية يرجى عمل التالى </p>
+                  <ol class="">
+                    <li>من داخل ملف الإكسيل قم بالضغط على “ALT + F11”</li>
+                    <li>سيقوم الاكسيل بفتح واجهة للتعامل مع الإكسيل عن طريق الكود</li>
+                    <li>قم بالنقر مرتين على الملف المراد التعديل عليه و ستظهر الواجهة كالصورة التالية</li>
+                  </ol>
+                </div>
+                <div class="m-auto w-50">
+                  <img class="img-fluid" src="assets/images/1 (1).jpg">
+                </div> 
+            </div> 
+        </div> 
+
+
+        <div id="accordion"> 
+            <div class="card plus1"  *ngIf="all || first || five"> 
+                <a class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseFive"> 
+                        <i class="fas fa-plus float-right ">
+                      </i>
+                      <p class="header-title "> 
+                        لماذا يقوم النظام فى بعض الاحيان بعدم قبول استيراد الملف ذات النوع (CSV) الى النظام بعد التعديل عليه؟
+                          </p> 
+                      </a> 
+                <div id="collapseFive" class="collapse"
+                        data-parent="#accordion"> 
+                    <div class="card-body"> 
+                      خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                      فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                      في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                    </div> 
+                </div> 
+            </div> 
+
+            <div id="accordion"> 
+                <div class="card plus1"  *ngIf="all || first || five"> 
+                    <a class="card-header collapsed card-link"
+                            data-toggle="collapse"
+                            data-target="#collapseSix"> 
+                            <i class="fas fa-plus float-right ">
+                          </i>
+                          <p class="header-title "> 
+                            لماذا يقوم النظام فى بعض الاحيان بعدم قبول استيراد الملف ذات النوع (MS Excel) الى النظام بعد التعديل عليه؟</p> 
+                          </a> 
+                    <div id="collapseSix" class="collapse"
+                            data-parent="#accordion"> 
+                        <div class="card-body"> 
+                          خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                          فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                          في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                        </div> 
+                    </div> 
+                </div> 
+
+        <div id="accordion"> 
+            <div class="card plus1"  *ngIf="all || Second || third"> 
+                <a class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseSeven"> 
+                        <i class="fas fa-plus float-right ">
+                      </i>
+                      <p class="header-title "> 
+                        ماهي الباقة المناسبة لي من Dynamic؟</p> 
+                      </a> 
+                <div id="collapseSeven" class="collapse"
+                        data-parent="#accordion"> 
+                    <div class="card-body"> 
+                      خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                      فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                      في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                    </div> 
+                </div> 
+            </div> 
+
+
+  <div id="accordion"> 
+      <div class="card plus1"  *ngIf="all || Second || about"> 
+          <a class="card-header collapsed card-link"
+                  data-toggle="collapse"
+                  data-target="#collapseOnee"> 
+                  <i class="fas fa-plus float-right ">
+                </i>
+                <p class="header-title "> 
+                  كيف أستطيع تجربة Dynamic بالكامل؟</p> 
+                </a> 
+          <div id="collapseOnee" class="collapse"
+                  data-parent="#accordion"> 
+              <div class="card-body"> 
+                خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+              </div> 
+          </div> 
+      </div> 
+
+    <div id="accordion"> 
+        <div class="card plus1"  *ngIf="all || count"> 
+            <a class="card-header collapsed card-link"
+                    data-toggle="collapse"
+                    data-target="#collapseTwoo"> 
+                    <i class="fas fa-plus float-right ">
+                  </i>
+                  <p class="header-title "> 
+                    لماذا احتاج محاسب عن بعد؟</p> 
+                  </a> 
+            <div id="collapseTwoo" class="collapse"
+                    data-parent="#accordion"> 
+                <div class="card-body"> 
+                  خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                  فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                  في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                </div> 
+            </div> 
+        </div> 
+
+    <div id="accordion"> 
+        <div class="card plus1"  *ngIf="all || first || five"> 
+            <a class="card-header collapsed card-link"
+                    data-toggle="collapse"
+                    data-target="#collapseThreee"> 
+                    <i class="fas fa-plus float-right ">
+                  </i>
+                  <p class="header-title "> 
+                    لماذا يطلب مني موظف الدعم أحيانا تحميل برنامج TeamViewer ؟</p> 
+                  </a> 
+            <div id="collapseThreee" class="collapse"
+                    data-parent="#accordion"> 
+                <div class="card-body"> 
+                  خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                  فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                  في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                </div> 
+            </div> 
+        </div> 
+
+        <div id="accordion"> 
+            <div class="card plus1"  *ngIf="all || first || four"> 
+                <a class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseFivee"> 
+                        <i class="fas fa-plus float-right ">
+                      </i>
+                      <p class="header-title "> 
+                        هل هناك سياسة خصوصية متبعة فيما يتعلق بمعلوماتي الشخصية؟</p> 
+                      </a> 
+                <div id="collapseFivee" class="collapse"
+                        data-parent="#accordion"> 
+                    <div class="card-body"> 
+                      خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                      فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                      في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                    </div> 
+                </div> 
+            </div> 
+
+      <div id="accordion"> 
+          <div class="card plus1"  *ngIf="all || first || about"> 
+              <a class="card-header collapsed card-link"
+                      data-toggle="collapse"
+                      data-target="#collapseSixx"> 
+                      <i class="fas fa-plus float-right ">
+                    </i>
+                    <p class="header-title "> 
+                      أرغب بالتحول من نظامي الحالي إلى نظام Dynamic ولكن كيف استطيع نقل البيانات القديمة؟</p> 
+                    </a> 
+              <div id="collapseSixx" class="collapse"
+                      data-parent="#accordion"> 
+                  <div class="card-body"> 
+                    خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                    فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                    في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                  </div> 
+              </div> 
+          </div> 
+
+          <div id="accordion"> 
+              <div class="card plus1"  *ngIf="all || first"> 
+                  <a class="card-header collapsed card-link"
+                          data-toggle="collapse"
+                          data-target="#collapseSevenn"> 
+                          <i class="fas fa-plus float-right ">
+                        </i>
+                        <p class="header-title "> 
+                          ماذا يحدث لبيانات الشركة أو المؤسسة الخاصة بي إذا توقفت عن دفع الإشتراك؟</p> 
+                        </a> 
+                  <div id="collapseSevenn" class="collapse"
+                          data-parent="#accordion"> 
+                      <div class="card-body"> 
+                        خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                        فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                        في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                      </div> 
+                  </div> 
+              </div> 
+
+
+        <div id="accordion"> 
+            <div class="card plus1"  *ngIf="all || pay"> 
+                <a class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseEight"> 
+                        <i class="fas fa-plus float-right ">
+                      </i>
+                      <p class="header-title "> 
+                        كيف يمكنني الدفع كي استمر باستخدام النظام؟</p> 
+                      </a> 
+                <div id="collapseEight" class="collapse"
+                        data-parent="#accordion"> 
+                    <div class="card-body"> 
+                      خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                      فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                      في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                    </div> 
+                </div> 
+            </div> 
+
+
+
+            <div id="accordion"> 
+                <div class="card plus1" *ngIf="all"> 
+                    <a class="card-header collapsed card-link"
+                            data-toggle="collapse"
+                            data-target="#collapseTen"> 
+                            <i class="fas fa-plus float-right ">
+                          </i>
+                          <p class="header-title "> 
+                            هل استطيع الحصول على نسخة من البيانات كي احتفظ بها في جهازي الشخصي؟</p> 
+                          </a> 
+                    <div id="collapseTen" class="collapse"
+                            data-parent="#accordion"> 
+                        <div class="card-body"> 
+                          خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                          فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                          في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                        </div> 
+                    </div> 
+                </div> 
+
+
+      <div id="accordion"> 
+          <div class="card plus1" *ngIf="all || about"> 
+              <a class="card-header collapsed card-link"
+                      data-toggle="collapse"
+                      data-target="#collapseEleven"> 
+                      <i class="fas fa-plus float-right ">
+                    </i>
+                    <p class="header-title "> 
+                      هل أحتاج إلى استعمال كل التطبيقات المشمولة كي أستفيد من النظام؟</p> 
+                    </a> 
+              <div id="collapseEleven" class="collapse"
+                      data-parent="#accordion"> 
+                  <div class="card-body"> 
+                    خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                    فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                    في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                  </div> 
+              </div> 
+          </div> 
+
+
+
+      <div id="accordion"> 
+          <div class="card plus1" *ngIf="all || about"> 
+              <a class="card-header collapsed card-link"
+                      data-toggle="collapse"
+                      data-target="#collapseTwelve"> 
+                      <i class="fas fa-plus float-right ">
+                    </i>
+                    <p class="header-title "> 
+                      أرغب بتقرير أو خاصية غير موجودة في Dynamic. فكيف يمكنني الحصول عليها؟</p> 
+                    </a> 
+              <div id="collapseTwelve" class="collapse"
+                      data-parent="#accordion"> 
+                  <div class="card-body"> 
+                    خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                    فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                    في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                  </div> 
+              </div> 
+          </div> 
+
+
+
+              <div id="accordion"> 
+                  <div class="card plus1" *ngIf="all || count || about"> 
+                      <a class="card-header collapsed card-link"
+                              data-toggle="collapse"
+                              data-target="#collapseFirst"> 
+                              <i class="fas fa-plus float-right ">
+                            </i>
+                            <p class="header-title "> 
+                              ليس لدي الإلمام الكافي بأصول المحاسبة وليس لدي محاسب، ماذا أعمل</p> 
+                            </a> 
+                      <div id="collapseFirst" class="collapse"
+                              data-parent="#accordion"> 
+                          <div class="card-body"> 
+                            خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                            فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                            في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                          </div> 
+                      </div> 
+                  </div> 
+
+
+
+
+
+
+                  <div id="accordion"> 
+                      <div class="card plus1" *ngIf="all"> 
+                          <a class="card-header collapsed card-link"
+                                  data-toggle="collapse"
+                                  data-target="#collapseSecond"> 
+                                  <i class="fas fa-plus float-right ">
+                                </i>
+                                <p class="header-title "> 
+                                  ماذا ستفعلون ببياناتي الشخصية؟</p> 
+                                </a> 
+                          <div id="collapseSecond" class="collapse"
+                                  data-parent="#accordion"> 
+                              <div class="card-body"> 
+                                خاصية المبلغ المشطوب : هي خانة تستخدم لمعالجة الخصومات الممنوحة من الموردين في حالة المشتريات<br>
+                                فعلي سبيل المثال المورد اصدر لك فاتورة بمبلغ 1410 ريال وقام بمنحك تخفيض 10 ريال علي هذه الفاتورة
+                                في هذه الحالة ستقوم بادخال المبلغ المشطوب 10 ريالات وحساب الشطب هو حساب الخصم المكتسب (حساب ايرادات اخري في الغالب) على سبيل المثال ومركز التكلفة هو الحساب الذي تود تخفيض تكلفة الشراء منه
+                              </div> 
+                          </div> 
+                      </div> 
+
+
+
+  </div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+          </div>
+      </div>
+        </div>
+    </div>
+    </div></div></div></div></div></div></div></div></div></div>
+  
+  </main>
+             
+ 

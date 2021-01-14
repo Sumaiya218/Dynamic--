@@ -1,0 +1,169 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* div.background {
+    margin-top: 113px !important;
+} */
+
+/* 
+@font-face {
+    font-family: Sky;
+    src: url('./assets/fonts/SKYfontThick.ttf');
+  }
+
+  *{
+    font-family: Sky !important;
+  } */
+
+
+  
+#main, #slidingbar, .fusion-footer-copyright-area, .fusion-footer-widget-area, .fusion-page-title-bar, .fusion-secondary-header, .header-v4 #small-nav, .header-v5 #small-nav, .sticky-header .sticky-shadow, .tfs-slider .slide-content-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.layout-wide-mode .fusion-page-title-row {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto ;
+}
+
+.fusion-page-title-row {
+  max-width: 1170px !important;
+}
+
+
+.top{
+  margin-top: 115px;
+}
+.fusion-page-title-bar {
+  border-color: rgba(255,255,255,0);
+  border: 0;
+  background-color: #f4f6f8;
+  height: 125px;
+}
+
+.fusion-page-title-wrapper {
+  display: table;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.fusion-page-title-captions {
+  display: table-cell;
+  vertical-align: middle;
+  width: 45%;
+}
+
+.fusion-page-title-bar-center .fusion-page-title-captions {
+  text-align: center;
+  width: auto;
+}
+
+.fusion-page-title-bar h1, .fusion-page-title-bar h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #343333;
+}
+
+.fusion-page-title-bar h1 {
+  font-size: 32px;
+  line-height: normal;
+}
+
+.fusion-modal h1, .fusion-page-title-bar h1, .fusion-widget-area h1, .post-content h1 {
+  font-family: 'Sky';
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+
+.fusion-page-title-bar h1 {
+  color: #68d7e7 !important;
+}
+
+.fusion-page-title-bar h1 {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+#content {
+  width: 71.1702128%;
+  float: left;
+  min-height: 1px;
+}
+
+body.has-sidebar #content {
+  width: calc(100% - 23% - 80px);
+}
+
+
+
+.post-content p, .fusion-post-content p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.post-content p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.fusion-modal h5, .fusion-post-content h5, .fusion-title h5, .fusion-widget-area h5, .post-content h5, .title h5 {
+  color: #24b2c7;
+}
+#main .about-author .title a:hover, #main .post h2 a:hover, #slidingbar-area .fusion-accordian .panel-title a:hover, #slidingbar-area .widget li.recentcomments:hover:before, #slidingbar-area ul li a:hover, #wrapper .fusion-widget-area .current-menu-item>a, #wrapper .fusion-widget-area .current-menu-item>a:before, #wrapper .fusion-widget-area .current_page_item>a, #wrapper .fusion-widget-area .current_page_item>a:before, #wrapper .jtwt .jtwt_tweet a:hover, .content-box-percentage, .fusion-accordian .panel-title a:hover, .fusion-content-widget-area .widget .recentcomments:hover:before, .fusion-content-widget-area .widget li a:hover, .fusion-content-widget-area .widget li a:hover:before, .fusion-content-widget-area .widget_archive li a:hover:before, .fusion-content-widget-area .widget_categories li a:hover, .fusion-content-widget-area .widget_categories li a:hover:before, .fusion-content-widget-area .widget_links li a:hover:before, .fusion-content-widget-area .widget_nav_menu li a:hover:before, .fusion-content-widget-area .widget_pages li a:hover:before, .fusion-content-widget-area .widget_recent_entries li a:hover:before, .fusion-copyright-notice a:hover, .fusion-date-and-formats .fusion-format-box i, .fusion-filters .fusion-filter.fusion-active a, .fusion-footer-widget-area .fusion-accordian .panel-title a:hover, .fusion-footer-widget-area .fusion-tabs-widget .tab-holder .news-list li .post-holder a:hover, .fusion-footer-widget-area .widget li a:hover:before, .fusion-footer-widget-area .widget li.recentcomments:hover:before, .fusion-footer-widget-area a:hover, .fusion-footer-widget-area ul li a:hover, .fusion-login-box a:hover, .fusion-popover, .fusion-read-more:hover:after, .more a:hover:after, .pagination-next:hover:after, .pagination-prev:hover:before, .price>.amount, .price ins .amount, .project-content .project-info .project-info-box a:hover, .rtl .fusion-read-more:hover:before, .rtl .more a:hover:before, .side-nav .arrow:hover:after, .side-nav li.current_page_ancestor>a, .side-nav ul>li.current_page_item>a, .single-navigation a[rel=next]:hover:after, .single-navigation a[rel=prev]:hover:before, .slidingbar-area .widget li a:hover:before, .slidingbar-area a:hover, .star-rating span:before, .star-rating:before, .tooltip-shortcode, h5.toggle:hover a, span.dropcap {
+  color: #24b2c7;
+}
+
+.fusion-modal h5, .fusion-widget-area h5, .post-content h5 {
+  font-family: 'Sky';
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0;
+  font-size: 22px;
+}
+
+#main .about-author .title a:hover, #main .post h2 a:hover, #slidingbar-area .fusion-accordian .panel-title a:hover, #slidingbar-area .widget li.recentcomments:hover:before, #slidingbar-area ul li a:hover, #wrapper .fusion-widget-area .current-menu-item>a, #wrapper .fusion-widget-area .current-menu-item>a:before, #wrapper .fusion-widget-area .current_page_item>a, #wrapper .fusion-widget-area .current_page_item>a:before, #wrapper .jtwt .jtwt_tweet a:hover, .content-box-percentage, .fusion-accordian .panel-title a:hover, .fusion-content-widget-area .widget .recentcomments:hover:before, .fusion-content-widget-area .widget li a:hover, .fusion-content-widget-area .widget li a:hover:before, .fusion-content-widget-area .widget_archive li a:hover:before, .fusion-content-widget-area .widget_categories li a:hover, .fusion-content-widget-area .widget_categories li a:hover:before, .fusion-content-widget-area .widget_links li a:hover:before, .fusion-content-widget-area .widget_nav_menu li a:hover:before, .fusion-content-widget-area .widget_pages li a:hover:before, .fusion-content-widget-area .widget_recent_entries li a:hover:before, .fusion-copyright-notice a:hover, .fusion-date-and-formats .fusion-format-box i, .fusion-filters .fusion-filter.fusion-active a, .fusion-footer-widget-area .fusion-accordian .panel-title a:hover, .fusion-footer-widget-area .fusion-tabs-widget .tab-holder .news-list li .post-holder a:hover, .fusion-footer-widget-area .widget li a:hover:before, .fusion-footer-widget-area .widget li.recentcomments:hover:before, .fusion-footer-widget-area a:hover, .fusion-footer-widget-area ul li a:hover, .fusion-login-box a:hover, .fusion-popover, .fusion-read-more:hover:after, .more a:hover:after, .pagination-next:hover:after, .pagination-prev:hover:before, .price>.amount, .price ins .amount, .project-content .project-info .project-info-box a:hover, .rtl .fusion-read-more:hover:before, .rtl .more a:hover:before, .side-nav .arrow:hover:after, .side-nav li.current_page_ancestor>a, .side-nav ul>li.current_page_item>a, .single-navigation a[rel=next]:hover:after, .single-navigation a[rel=prev]:hover:before, .slidingbar-area .widget li a:hover:before, .slidingbar-area a:hover, .star-rating span:before, .star-rating:before, .tooltip-shortcode, h5.toggle:hover a, span.dropcap {
+    color: #24b2c7;
+}
+
+.current_page_item a {
+  border-right-color: #24b2c7;
+  border-left: 0;
+}
+.children >li >a {
+  padding-right: 35px;
+}
+
+.slide:focus{
+  outline:unset !important;
+}
+
+
+
+#toTop {
+  background-color: #333;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  color: #fff;
+  display: none;
+  height: 35px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 48px;
+  opacity: .9;
+  z-index: 10000;
+  transition: all .2s ease-in-out 0s;
+}
+

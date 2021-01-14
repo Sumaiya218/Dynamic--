@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sky;
+}
+.background {
+    height: 150px;
+}
+.background .back{
+    height: 100%;
+    width: 100%;
+}
+.background .caption{
+    top: 40%;
+    width: 100%;
+}
+.background .caption p{
+    color: #14A9DE;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0;
+    font-size: 22px;
+}
+.home{
+    text-align: right;
+}
+.home h3{
+    font-size: 24.812px;
+    line-height: 31.902px;
+    color: #14A9DE;
+}
+.home ul{
+    direction: rtl;
+}
+.home ul li{
+    font-size: 16px;
+    color: #8d8d8d;
+    font-weight: 400;
+}
+.home p{
+    color:#253C8C;
+    font-size: 16px;
+    font-weight: bold;
+}
+.home a{
+    font-size: 18px;
+    background-color:#14A9DE ;
+}
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }

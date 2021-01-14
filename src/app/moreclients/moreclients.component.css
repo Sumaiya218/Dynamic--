@@ -1,0 +1,161 @@
+
+
+*
+{
+    box-sizing: border-box;
+    font-family: sky;
+    direction: rtl;
+}
+
+/* start header*/
+header
+{
+    background-image: url(/assets/image/hr-cover2-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: right;
+    
+}
+
+header .header-caption .p-clor
+{
+    font-size: 22px; 
+    color: #68d7e7;
+
+}
+
+/* end header*/
+
+/*start section blog*/
+.blog .blog-brdr
+{
+    border: 7px solid #f3f3f3;
+    text-align: center;
+}
+
+.blog h6
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+.blog .blog-clor
+{
+    color: #14A9DE;
+}
+/*end section blog*/
+
+/*start section about*/
+.about-caption
+{
+    text-align: center !important;
+}
+
+
+/*end section about*/
+
+/*start bg*/
+.bg 
+{
+    background-color:  #747474;
+
+}
+
+/*end bg*/
+
+/*start section service*/
+.service .service-head
+{
+    color: #14A9DE;
+    border-bottom: 1px solid #e7e6e6; 
+}
+
+
+.service .service-brdr
+{
+    border: 7px solid #f3f3f3;
+    
+}
+
+.service .service-footer p
+{
+    color:#253C8C;
+    font-size: 28px; 
+}
+/*end section service*/
+
+@media (max-width : 576px)
+{
+    header img 
+    {
+        display: none;
+    } 
+    
+    header .header-caption
+    {
+        margin-right:20px ;
+    }
+    .bg 
+    {
+        width: 95%;
+    }
+    .blog-brdr
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .service .service-brdr 
+    {
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width : 576px) and (max-width :768px)
+{
+    
+    
+    header .header-caption
+    {
+        width: 100% !important;
+        display: block !important;
+        margin-right:20px ;
+    }
+    .blog-brdr
+    {
+        width: 80%;
+        
+        margin: auto;
+    }
+    .service .service-brdr 
+    {
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width :992px)
+{
+    
+    
+    header .header-caption
+    {
+        
+        margin-right:20px ;
+    }
+    .blog-brdr
+    {
+        width: 60%;
+        margin: auto;
+    }
+    .service .service-brdr 
+    {
+        width: 50%;
+        margin: auto;
+    }
+
+
+}
+

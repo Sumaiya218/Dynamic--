@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: sky;
+}
+
+div.background {
+  position: relative;
+}
+div.background .back{
+    height: 300px;
+    width: 100%;
+}
+div.transbox {
+  position: absolute;
+  background-color:#000000;
+  opacity: 0.7;
+  top:0;
+  width: 100%;
+}
+div.transbox1 {
+  position: absolute;
+  width: 100%;
+  top:20%; 
+}
+.dafater
+{
+    text-align: right;
+    margin-top: 3%;
+}
+.dafater h3
+{
+    color:  #14A9DE;
+}
+.dafater p
+{
+  color: #fff;
+}
+.programs{
+    text-align: center;
+    direction: rtl;
+}
+.programs .big-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.programs .big-link i{
+    font-size: 40px;
+    color: #253C8C;
+}
+.programs .big-link h3{
+    color: #999999;
+    font-size: 20px;
+}
+.programs .big-link p{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+.programs a:hover i , .programs a:hover h3{
+  color: #606060;
+}
+
+@media only screen and (max-width: 800px)
+ {
+   .lampa
+   {
+     display : none ;
+   }
+   div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:10%;
+   
+   
+  }
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  .dafater h3
+  {
+      color:  #14A9DE;
+      font-size : 12px
+      
+  
+  }
+  .dafater p
+  {
+    color: #fff;
+    font-size: 14px;
+  }
+  .first
+  {
+    order: 1;
+  }
+  .second
+  {
+    order: 2;
+  }
+  .third
+  {
+    order: 3;
+  }
+  .purple button
+{
+  width: 70%;
+  background-color: #253C8C;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: none;
+  margin-top: 10%;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #333333;
+  margin-top: -10px;
+  margin-left: 40%;
+}
+
+
+}

@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: sky;
+}
+div.background {
+    position: relative;
+    height: 300px;
+  }
+  div.background .back {
+    width: 100%;
+    height: 100%;
+  }
+  
+  div.transbox1 
+  {
+    position: absolute;
+    width: 100%;
+    top:30%;
+   
+   
+  }
+  .dafater
+  {
+      text-align: right;
+  }
+  .dafater h3
+  {
+      color:#14A9DE;
+      font-weight: 400;
+
+  }
+  .dafater p
+  {
+    color: #fff;
+  }
+  
+.qanon
+{
+  text-align: right;
+}
+.qanon h4
+{
+  color: #14A9DE;
+  border-bottom: 1px solid #e7e6e6;
+  padding-bottom: 4%;
+}
+.qanon  p
+{
+  color: #8d8d8d;
+}
+.qanon img{
+  width: 60%;
+  right: 60px;
+}
+.shroot
+{
+  text-align: center;
+  margin-top: 5%;
+}
+.shroot h4
+{
+  font-size: 28px;
+  color: #14A9DE;
+  border-bottom: 1px solid #e7e6e6;
+  padding-bottom: 2%;
+
+}
+.shroot img
+{
+  margin:10px 0px 20px;
+  width: 50%;
+}
+.or-list
+{
+  direction: rtl;
+  text-align: right;
+}
+.or-list b
+{
+  color: #8d8d8d;
+}
+.or-list p
+{
+  color: #8d8d8d;
+}
+.or-list li
+{
+  color: #8d8d8d;
+}
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media only screen and (max-width: 800px)
+{
+  .man
+  {
+    display : none ;
+  }
+  div.transbox1 {
+   position: absolute;
+   width: 100%;
+   top:25%;
+ }
+ .qanon img{
+   width: 45%;
+   right: 140px;
+ }
+ .shroot img{
+   width: 60%;
+ }
+
+}

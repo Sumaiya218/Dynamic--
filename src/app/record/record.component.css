@@ -1,0 +1,152 @@
+body{
+    direction: rtl;
+    font-family: sky;
+}
+*{
+    box-sizing: border-box;
+  
+}
+div.background {
+    position: relative;
+   height: 250px;
+  }
+  div.background .back {
+    width: 100%;
+   height: 100%;
+   
+  }
+  
+  div.transbox {
+    position: absolute;
+    opacity: 0.7;
+    top:0;
+    width: 100%;
+    height: 100%;
+  }
+  div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:20%;   
+  }
+  .transbox1 a{
+    background: #14A9DE;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .icon-link
+  {
+    margin-top: 20%;
+  }
+  .transbox1 a i{
+    font-size: 20px;
+    top: 3px;
+    right: 7px;
+  }
+  
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  .dafater h3
+  {
+      color: #14A9DE;
+      font-size: 24px;
+  }
+  .dafater p
+  {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  #accordion ,  #accordion ol li ,   #accordion p{
+    text-align: right;
+}
+#accordion a{
+  background-color: white;
+}
+#accordion a i{
+  color: #fff;
+  padding: 7px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 15px;
+  background-color:#253C8C
+}
+#accordion a:hover i{
+  background-color:  #14A9DE;
+}
+
+#accordion .card-body{
+    text-align: right;
+    color: #8d8d8d;
+}
+#accordion .card-header p{
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 5px;
+    color: #14A9DE;
+}
+#accordion .card-header i{
+    margin-top: 5px;
+}
+#accordion .dist{
+  line-height: 1.68;
+  color: #8d8d8d;
+  font-size: 18px;
+}
+#accordion ul li , #accordion ol li{
+    direction: rtl;
+    color: #8d8d8d;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 5px 0px;
+}
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+  @media only screen and (max-width: 800px)
+ {
+   .man
+   {
+     display : none ;
+   }
+   div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:25%;
+  }
+   
+}

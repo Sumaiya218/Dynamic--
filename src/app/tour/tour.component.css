@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  box-sizing: border-box;
+  font-family: sky;
+}
+
+
+div.background {
+  position: relative;
+  height: 250px;
+ 
+}
+div.background img {
+  width: 100%;
+  height: 100%;
+}
+
+div.transbox {
+  position: absolute;
+  opacity: 0.7;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+}
+div.transbox1 {
+  position: absolute;
+  width: 100%;
+  top:15%;
+ 
+ 
+}
+.dafater
+{
+    text-align: right;
+    margin-top: 3%;
+}
+.dafater h3
+{
+    color: #14A9DE;
+    font-weight: 400;
+
+}
+.dafater p
+{
+  color: #fff;
+}
+.works
+{
+  margin-top: 8% ;
+}
+
+.works h3
+{
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  direction: rtl;
+  color: #14A9DE;
+}
+.works p
+{
+  text-align: center;
+  
+  font-size: 18px;
+  line-height: 27px;
+  color: #747474;
+  font-weight: bold;
+  font-family: 'sky';
+}
+
+
+
+.vedio {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 35.25%; /* 16:9 Aspect Ratio */
+  margin-top: 10%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  border: none;
+  margin-left: 15%;
+}
+.sample h1
+{
+  text-align: center;
+  font-size: 30px;
+  line-height: 34px;
+  color: #14A9DE;
+}
+.sample p
+{
+  text-align: center;
+  direction: rtl;
+  font-size: 17px !important;
+  line-height: 24px !important;
+  color: #747474;
+  margin-bottom: 15%;
+
+}
+.sample a
+{
+  color: rgba(0,0,0,.5);
+ 
+  text-decoration: none;
+  font-weight: bold;
+  border : rgba(0,0,0,.5) 3px solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 35% ;
+ 
+}
+.sample
+{
+  background-color:  #f5f5f0;
+  margin-top: 5%;
+  padding-top: 5% ;
+  padding-bottom: 5% ;
+  border-top :1px solid #e5e4e4 ;
+  border-bottom :1px solid #e5e4e4 ;
+}
+.speed
+{
+  text-align: center;
+  direction: rtl;
+  margin-top: 5%;
+}
+.speed h1 
+{
+  text-align: center;
+  font-size: 30px;
+  line-height: 34px;
+  color: #14A9DE;
+}
+.speed p
+{
+  text-align: center;
+ 
+  font-size: 17px !important;
+  line-height: 24px !important;
+  color: #8d8d8d;
+}
+.speed img
+{
+  margin-top: 5%;
+
+}
+.gawla
+{
+  direction: rtl;
+  text-align: center;
+  background-color: #333333;
+  padding-top: 30px ;
+  padding-bottom: 40px ;
+}
+.gawla h1
+{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255) !important;
+  line-height: 34px;
+}
+.gawla p
+{
+  text-align: center;
+  font-size: 17px !important;
+  line-height: 24px !important;
+  color: #b1b1b1 !important;
+}
+.gawla img
+{
+  margin-bottom:3% ;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #333333;
+  margin-top: -10px;
+  margin-left: 46%;
+}
+
+.m-btn
+{
+  border:none;
+}
+.model3
+{
+  text-align: center;
+}
+.model3 h5
+{
+  
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0;
+  font-size: 22px;
+  color: #14A9DE;
+  margin-top: 10%;
+}
+.model3 p
+{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  direction: rtl;
+  color: #8d8d8d;
+  font-size: 16px;
+  
+}
+.tkleef
+{
+  text-align: center;
+  direction: rtl;
+  margin-top:5% ;
+
+}
+.brdr
+{
+ 
+  border-top: 1px solid  #555555;
+  border-bottom: 1px solid  #555555;
+  padding: 3px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 35px;
+}
+.brdr1
+{
+ 
+  border-top: 1px solid  #eee2e2;
+  border-bottom: 1px solid  #eee2e2;
+  padding: 3px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 35px;
+}
+.showw
+{
+  direction: rtl;
+  text-align: right;
+}
+.showw i
+{
+  color: #253C8C;
+  font-size: 25px;
+}
+.showw span
+{
+  color: #b1b1b1;
+}
+.showw div
+{
+  margin-top: 5%;
+}
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #333333;
+  margin-left: 48%;
+  margin-top: 5%;
+}
+.purple
+{
+  background-color:  #253C8C;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.purple h4
+{
+  text-align: right;
+  font-size: 25.942px;
+  line-height: 33.354px;
+  color: #fff;
+  margin-bottom: 2%;
+}
+.purple p
+{
+  text-align: right;
+  color: #fff;
+}
+.purple button
+{
+  width: 70%;
+  background-color: #0353a4;
+  color: #fff;
+  font-weight: bold;
+
+  border: none;
+}
+.d3m
+{
+  margin-top: 7%;
+}
+.momyzat
+{
+  background-color: #333333;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+.momyzat h1
+{
+  text-align: center;
+  font-size: 27.795px;
+  color: rgb(255, 255, 255) !important;
+  line-height: 31.501px;
+
+}
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 800px)
+ {
+   .lampa
+   {
+     display : none ;
+   }
+   div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:20%;
+   
+   
+  }
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  
+  .first
+  {
+    order: 1;
+  }
+  .second
+  {
+    order: 2;
+  }
+  .third
+  {
+    order: 3;
+  }
+  .purple button
+{
+  width: 70%;
+  background-color:#253C8C;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  border: none;
+  margin-top: 10%;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #333333;
+  margin-top: -10px;
+  margin-left: 40%;
+}
+
+
+}
+
+@media only screen and (max-width: 400px)
+{
+  div.transbox1 {
+    position: absolute;
+    width: 100%;
+    top:0;
+   
+   
+  }
+  .dafater
+  {
+      text-align: right;
+      margin-top: 3%;
+  }
+  .dafater h3
+  {
+      color: #14A9DE;
+      font-size : 10px
+      
+  
+  }
+  .dafater p
+  {
+    color: #fff;
+    font-size: 10px;
+  }
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #333333;
+    margin-top: -10px;
+    margin-left: 37%;
+  }
+
+}

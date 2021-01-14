@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+  font-family: sky;
+}
+.back{
+    background-image: url(/assets/image/8.jpg);
+    background-size: cover;
+    height: 270px;
+    text-align: right;
+
+}
+
+.back h2{
+    color: #14A9DE;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.back p{
+    font-size: 14px;
+}
+
+.model
+{
+  text-align: right;
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+.model label
+{
+  color: #8d8d8d;
+}
+.wpcf7-submit
+ {
+  background: #14A9DE;
+  color: #ffffff;
+  padding: 17px 40px;
+    line-height: 21px;
+    font-size: 18px;
+    border: none;
+}
+.form-group span{
+    color: #14A9DE;
+}
+main h2{
+    color: #14A9DE;
+    position: relative;
+    bottom: 12px;
+}
+.text div{
+    color: #DBE2EA;
+}
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+ 
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+  @media only screen and (max-width: 800px)
+  {
+    .man
+    {
+      display : none ;
+    }
+    div.transbox1 {
+     position: absolute;
+     width: 100%;
+     top:25%;
+   }
+   
+   .dafater h3
+   {
+       font-size : 20px  
+   }
+   .dafater p
+   {
+     font-size: 14px;
+   }
+  
+  }

@@ -1,0 +1,86 @@
+
+.footer{
+    font-family: sky;
+    background-size: cover;
+    direction: rtl;
+    background-attachment: fixed;
+    background-image: url(/assets/image/footerback.jpg);
+    text-align: right;
+}
+
+.footer .right p{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #9b9b9b;
+}
+.footer h4{
+    text-align: right;
+    font-size: 22px;
+    color: #fff;
+}
+.every
+{
+    text-align: right;
+}
+
+
+.footer .right .visa{
+    width: 250px;
+}
+.footer .company , .footer .solution ,.footer .services , .footer .community{
+    text-align: right;
+}
+
+.footer .company ul li , .footer .community ul li , .footer .solution ul li , .footer .services ul li {
+    list-style: none;
+    padding: 10px 0px ;
+}
+.footer .company ul li a, .footer .community ul li a, .footer .solution ul li a , .footer .services ul li a{
+    text-decoration: none;
+    color: #9b9b9b;
+    text-align: right;
+    font-size: 18px;
+}
+.footer .company ul li a i, .footer .community ul li a i, .footer .solution ul li a i, .footer .services ul li a i
+{
+    color: #9b9b9b;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.footer .company ul li a:hover , .footer .community ul li a:hover, .footer .solution ul li a:hover , .footer .services ul li a:hover{
+    color: #14A9DE;
+}
+.footer .company ul li a:hover i, .footer .community ul li a:hover i, .footer .solution ul li a:hover i, .footer .services ul li a:hover i{
+    color: #14A9DE;
+}
+
+footer{
+    background-color: #2A2A2A;
+}
+footer span{
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 400;
+}
+footer .links a {
+    padding: 0px 5px;
+}
+footer .links a i{
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #FFF;
+    background-color:#14A9DE ;
+    border: solid 1px #14A9DE;
+}
+
+@media only screen and (max-width: 800px)
+{
+ 
+.every1{
+    display: block;
+    text-align: center;
+}
+
+}
+

@@ -1,0 +1,230 @@
+
+.fusion-title-size-five, h5 {
+    margin-top: 1.37em;
+    margin-bottom: 1.37em;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#reviews #comments>h2, #wrapper .fusion-tabs-widget .tab-holder .news-list li .post-holder .meta, #wrapper .meta, .fusion-blog-timeline-layout .fusion-timeline-date, .fusion-main-menu .fusion-custom-menu-item-contents, .fusion-rollover .price .amount, .post .post-content, .post-content blockquote, .project-content .project-info h4, .review blockquote div, .search input, .sidebar .fusion-tabs-widget .tab-holder .tabs li a, .sidebar .jtwt, .sidebar .widget .recentcomments, .sidebar .widget_archive li, .sidebar .widget_categories li, .sidebar .widget_layered_nav li, .sidebar .widget_links li, .sidebar .widget_meta li, .sidebar .widget_nav_menu li, .sidebar .widget_pages li, .sidebar .widget_product_categories li, .sidebar .widget_recent_entries li, .title-row, body, body .sidebar .fusion-tabs-widget .tab-holder .tabs li a {
+    color: #8d8d8d;
+}
+
+#nav ul li ul li a, #reviews #comments>h2, #side-header .fusion-contact-info, #side-header .header-social .top-menu, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li>a, #wrapper #sticky-nav ul li ul li>a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-accordian .panel-body, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu>a:hover, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .ticket-selector-submit-btn[type=submit], body {
+    line-height: 1.68;
+}
+
+#nav ul li ul li a, #reviews #comments>h2, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li>a, #wrapper #sticky-nav ul li ul li>a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-blog-shortcode .fusion-timeline-date, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-load-more-button, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu>a:hover, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .ticket-selector-submit-btn[type=submit], .wpcf7-form input[type="submit"], body {
+    font-family: 'Sky';
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+#main .fusion-row, #slidingbar-area .fusion-row, .fusion-footer-copyright-area .fusion-row, .fusion-footer-widget-area .fusion-row, .fusion-page-title-row, .tfs-slider .slide-content-container .slide-content {
+    max-width: 1170px;
+}
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+
+body.has-sidebar #main .sidebar {
+    width: 23%;
+}
+
+
+#main .sidebar {
+    background-color: rgba(255,255,255,0);
+    padding: 0;
+}
+
+.side-nav-right .side-nav {
+    border-right: 1px solid #ededed;
+}
+
+#customer_login .col-1, #customer_login .col-2, #customer_login h2, #customer_login_box, #reviews li .comment-text, #small-nav, #wrapper .fusion-tabs-widget .tab-holder, #wrapper .side-nav li a, #wrapper .side-nav li.current_page_item li a, .avada-skin-rev, .chzn-container-single .chzn-single, .chzn-container-single .chzn-single div, .chzn-drop, .commentlist .the-comment, .es-carousel-wrapper.fusion-carousel-small .es-carousel ul li img, .fusion-accordian .fusion-panel, .fusion-author .fusion-author-social, .fusion-blog-layout-grid .post .flexslider, .fusion-blog-layout-grid .post .fusion-content-sep, .fusion-blog-layout-grid .post .post-wrapper, .fusion-content-widget-area .widget .recentcomments, .fusion-content-widget-area .widget li a, .fusion-content-widget-area .widget li a:before, .fusion-content-widget-area .widget_archive li, .fusion-content-widget-area .widget_categories li, .fusion-content-widget-area .widget_links li, .fusion-content-widget-area .widget_meta li, .fusion-content-widget-area .widget_nav_menu li, .fusion-content-widget-area .widget_pages li, .fusion-content-widget-area .widget_recent_entries li, .fusion-counters-box .fusion-counter-box .counter-box-border, .fusion-filters, .fusion-hide-pagination-text .pagination-next, .fusion-hide-pagination-text .pagination-prev, .fusion-layout-timeline .post, .fusion-layout-timeline .post .flexslider, .fusion-layout-timeline .post .fusion-content-sep, .fusion-portfolio .fusion-portfolio-boxed .fusion-content-sep, .fusion-portfolio .fusion-portfolio-boxed .fusion-portfolio-post-wrapper, .fusion-portfolio-one .fusion-portfolio-boxed .fusion-portfolio-post-wrapper, .fusion-tabs.vertical-tabs.clean .nav-tabs li .tab-link, .fusion-timeline-arrow, .fusion-timeline-date, .input-radio, .ls-avada, .page-links a, .pagination a.inactive, .panel.entry-content, .post .fusion-meta-info, .price_slider_wrapper, .progress-bar, .project-content .project-info .project-info-box, .rtl .side-nav, .search-page-search-form, .sep-dashed, .sep-dotted, .sep-double, .sep-single, .side-nav, .side-nav li a, .single-navigation, .table, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th, .table-1 table, .table-1 table th, .table-1 tr td, .table-2 table thead, .table-2 tr td, .tabs-vertical .tabs-container .tab_content, .tabs-vertical .tabset, .tagcloud a, .tkt-slctr-tbl-wrap-dv table, .tkt-slctr-tbl-wrap-dv tr td, h5.toggle.active+.toggle-content, tr td {
+    border-color: #dbe2ea;
+}
+
+.side-nav-right .side-nav {
+    border-left: 1px solid #ededed;
+}
+
+.side-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ededed;
+    margin-bottom: 20px;
+}
+
+.side-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper .side-nav li.current_page_item a {
+    border-right-color: #14A9DE;
+    border-left-color: #14A9DE;
+}
+
+
+#wrapper .side-nav li.current_page_item a {
+    border-right-color: #14A9DE;
+    border-left: 0;
+}
+.sidebar {
+    width: 23%;
+    float: right;
+}
+.side-nav li a{
+    border-color: #dbe2ea;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.side-nav li a {
+    border-bottom: 1px solid #ededed;
+    display: block;
+    height: auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 39px;
+    color: #333;
+}
+.side-nav li a {
+    line-height: 1.69em;
+    padding: 8px 0;
+}
+.side-nav-right .side-nav li a {
+    padding-right: 25px;
+}
+
+.rtl .side-nav-right .side-nav li a {
+    padding-left: 0;
+}
+
+.side-nav .arrow {
+    display: inline;
+    margin-left: 0;
+}
+
+#main {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.side-nav-right .side-nav .arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.side-nav .arrow:after {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'icomoon';
+}
+
+.rtl .side-nav-right .side-nav .children {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.side-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.acticve {
+    border: 3px solid #14A9DE !important;
+    border-left: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    color: #14A9DE !important;
+}
+.children li a {
+    padding-right: 35px;
+}
+
+
+.a_parent{
+    cursor: pointer;
+}
+
+.post-content{
+    text-align: right;
+}
+
+
+@media (max-width: 991px) { 
+#attachment_5337 ,.size-large{
+    width: 100% !important;
+}
+}
+
+
+@media (max-width: 800px) { 
+    .usion-row{
+        display: block;
+    }
+    #content {
+        order: 1;
+        width: 100% !important;
+    }
+
+    #sidebar {
+        order: 2;
+        width: 100% !important;
+    }
+    }

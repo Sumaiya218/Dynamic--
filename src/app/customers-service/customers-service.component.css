@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    font-family: sky;
+}
+.home{
+    background-image: url(/assets/images/sales-cover3.jpg);
+    background-size: cover;
+
+    text-align: right;
+    direction: rtl;
+}
+.home h2{
+    color: #14A9DE;
+    font-size: 36px;
+}
+.home .line{
+    width: 70px;
+    height: 4px;
+    background-color: #fff;
+}
+.home p{
+    font-size: 16px;
+}
+.home a{
+    background: #f0483e;
+    line-height: 21px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.home a:hover{
+    background-color: #14A9DE;
+}
+.home .vedio {
+    width: 100%;
+  }
+.home .text{
+    top: 40px;
+}
+.adva {
+    background-color: #F8F8F8;
+    direction: rtl;
+}
+.adva h2 , .connections h2 , .library h2 , .more h2 , .programs h2, .suitable h2 , .info h2{
+    color: #5c5c5c;
+    font-size: 31.232px;
+    line-height: 39.04px;
+}
+.adva .line , .connections .line , .library .line{
+    width: 70px;
+    height: 4px;
+    background-color: #14A9DE;
+}
+.adva h3  {
+    font-size: 16px;
+    color: #4E4E4E;
+    font-weight: 600;
+}
+.adva i{
+    font-size: 55px ;
+    color: #253C8C;
+    margin-bottom: 20px;
+}
+
+.adva p , .suitable p, .more p {
+    line-height: 1.68;
+    font-size: 14px;
+    color: #8d8d8d;
+}
+.more p , .suitable p  {
+    font-size: 18px;
+}
+.more{
+    direction: rtl;
+}
+.more p{
+    font-size: 16px;
+}
+.more .row{
+    position: relative;
+    right: 105px;
+}
+.more .row div{
+    border: solid 1px #ececec;
+    padding: 20px ;
+}
+.more .row div p{
+    font-size: 16px;
+    color: #4E4E4E;
+
+}
+.more i , .connections i{
+    color: #14A9DE;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.connections{
+    direction: rtl;
+}
+.connections p {
+    font-size: 16px;
+    color: #8d8d8d;
+}
+.connections .row p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.68;
+    color:#4E4E4E;
+}
+.library{
+    direction: rtl;
+    text-align: right;
+}
+.library p{
+    font-size: 18px;
+    color: #8d8d8d;
+
+}
+.suitable{
+    background-color: #F8F8F8;
+    direction: rtl;
+    text-align: right;
+}
+.suitable a , .library a{
+    background: #f0483e;
+    line-height: 21px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.suitable a:hover , .library a:hover{
+    background-color: #14A9DE;
+}
+.info{
+    direction: rtl;
+    text-align: right;
+    font-size: 16px;
+    color: #777;
+    width: 60%;
+    margin: auto;
+}
+.info span{
+    color: #14A9DE;
+}
+.info .check label{
+    margin-right: 20px;
+}
+.info .check .form-check{
+    margin-top: 10px;
+}
+form{
+    padding-top: 20px;
+}
+.info a  {
+    font-size: 18px;
+    background: #14A9DE;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0);
+    top: 30px;
+}
+
+.programs{
+    direction: rtl;
+    background-size: cover;
+    background-image: url(/assets/images/dafater-software-bg2.jpg);
+}
+.programs .big-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.programs .big-link i{
+    font-size: 40px;
+    color: #253C8C;
+}
+.programs .big-link h3 a{
+    color: #999;
+    font-size: 20px;
+    text-decoration: none;
+}
+.programs .big-link:hover i{
+    color: #606060;
+}
+.programs .big-link p{
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+@media only screen and ( max-width : 800px){
+   
+    .home iframe {
+        margin-top: 30px;
+    }
+    .more img{
+        width: 90%;
+    }
+    .more .row{
+        right: 0px;
+        margin: auto;
+    }
+    .work img{
+        width: 90%;
+    }
+    .suitable h2{
+        position: relative;
+        top: 20px;
+    }
+    .home iframe{
+        width: 95%;
+       position: relative;
+       top: 40px;
+    }
+}

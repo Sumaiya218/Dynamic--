@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+  font-family: sky;
+}
+
+div.background {
+  position: relative;
+ height: 400px;
+}
+div.background img {
+  width: 100%;
+     height: 100%;
+}
+
+
+div.transbox {
+  position: absolute;
+  opacity: 0.7;
+  top:0;
+  width: 100%;
+  height: 100%;
+}
+div.transbox1 {
+  position: absolute;
+  width: 100%;
+  top:5%; 
+}
+div.transbox1 .row1{
+  border-bottom:  dashed 1px #ccc;
+}
+.dafater
+{
+    text-align: right;
+    margin-top: 3%;
+}
+.dafater2{
+  text-align: right;
+  font-weight: 600;
+  font-size: 18px;
+}
+.dafater h3
+{
+    color: #68d7e7;
+    font-weight: 400;
+
+}
+.dafater p
+{
+  color: #fff;
+  padding-top: 10px;
+}
+div.transbox1 .row .link a{
+  background-color: #14A9DE;
+  text-decoration: none;
+}
+.selector
+{
+  direction: rtl;
+  text-align: right;
+}
+.selector a{
+    margin-left: 2%;
+    color: #000;
+    background-color: #ddd;
+    border-color: #ccc;
+    border-style: solid;
+    padding: 7px 20px;
+    line-height: 16px;
+    border-radius: 2px;
+    text-decoration: none;
+    border-width: 1px;
+    font-size: 13px;
+
+}
+
+.selector select
+{
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  color: #8d8d8d;
+  padding: 4px 18px;
+  margin-left: 15px;
+}
+
+.tanseq .entry-title a{
+  color: #24B9D7;
+  font-weight: 400;
+}
+.avfr-controls {
+  text-align: center;
+  border: 3px solid #ccc;
+  padding: 8px;
+  width: 96px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+.print h4
+{
+  color: #14A9DE;
+  font-family: 'Muli',sans-serif;
+    font-weight: 700;
+    
+}
+.print h4 a
+{
+text-decoration: none;
+}
+.print
+{
+  text-align: right;
+  
+}
+.tanseq .row {
+  padding: 30px 0px;
+}
+.avfr-short-group i
+{
+  margin-left: 1%;
+  color: #acacac;
+}
+.avfr-short-group span
+{
+  margin-left: 1%;
+  color: #acacac;
+}
+.avfr-short-group a
+{
+margin-left: 1%;
+text-decoration: none;
+color: #acacac;
+}
+.avfr-short-group strong
+{
+  color: #8468a5;
+}
+.avfr-status 
+{
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  direction: rtl;
+  text-align: right;
+  
+}
+.avfr-status .avfr-status-approved {
+  background: #5cb85c;
+}
+ .avfr-status-complete {
+  background: #007aaf;
+  
+}
+
+.avfr-status span {
+  display: inline-block;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  padding: 11px 0px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  width: 96px;
+  font-size: 13px;
+  line-height: 1.5;
+  
+}
+.print p
+{
+  color: #8d8d8d;
+}
+.like i
+{
+  margin-left: 8%;
+}
+ .fa-thumbs-up
+{
+  position: relative;
+    overflow: hidden;
+    display: inline-block;
+    
+   padding: 5%;
+    font-size: 18px;
+   
+    text-decoration: none;
+    border: 1px solid #ccc;
+    
+    border-radius: 2px;
+    color: #5cb85c;
+}
+.fa-thumbs-down
+{
+  position: relative;
+    overflow: hidden;
+    display: inline-block;
+   
+    padding: 5%;
+    font-size: 18px;
+   
+    text-decoration: none;
+    border: 1px solid #ccc;
+   
+    border-radius: 2px;
+    color: #d9534f;
+}
+.bg-color
+{
+  background: #f7f7f7;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.avfr-loadmore
+{
+  text-align: center;
+  width: 147px;
+    text-align: center;
+    background: #007aaf;
+    color: #fff;
+    
+    border-radius: 2px;
+    padding: 8px;
+    display: inline-block;
+  
+ 
+}
+.avfr-button
+{
+  text-decoration: none;
+  color: #fff;
+}
+.more
+{
+  text-align: right;
+  text-decoration: none;
+  margin-top: 3%;
+}
+.up #button i{
+  display: inline-block;
+  background-color: #333;
+  font-size: 14px;
+      padding: 14px 16px;
+  text-align: center;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.up #button i:hover {
+  cursor: pointer;
+  background-color: #14A9DE;
+}
+.up #button i:active {
+  background-color: #555;
+}
+.up #button i.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media only screen and (max-width: 800px)
+{
+  div.background{
+    height: 500px;
+  }
+  .man
+  {
+    display : none ;
+  }
+  div.transbox1 {
+   position: absolute;
+   width: 100%;
+   top:4%;
+  
+  
+ }
+ .dafater
+ {
+     text-align: right;
+     margin-top: 3%;
+ }
+ div.transbox1 .row {
+   margin: auto;
+   
+ }
+ div.transbox1 .row .link{
+   margin-top: 40px;
+   left: 165px;
+ }
+ .print h4{
+   margin-top: 15px;
+ }
+}

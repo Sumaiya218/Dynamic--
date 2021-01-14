@@ -1,0 +1,107 @@
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+body{
+  font-family: sky;
+}
+.back{
+    background-image: url(/assets/image/8.jpg);
+    background-size: cover;
+    height: 270px;
+    text-align: right;
+
+}
+
+.back h2{
+    color: #68d7e7;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.back p{
+    font-size: 14px;
+}
+.info{
+    text-align: right;
+    font-size: 16px;
+    color: #777;
+    width: 50%;
+    margin: auto;
+}
+.info span{
+    color: #14A9DE;
+}
+.info .check label{
+    margin-right: 20px;
+}
+.info .check .form-check{
+    margin-top: 10px;
+}
+form{
+    padding-top: 20px;
+}
+.info a {
+    font-size: 18px;
+    font-weight: bold;
+    background: #14A9DE;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0);
+    top: 50px;
+}
+
+
+.up #button i{
+    display: inline-block;
+    background-color: #333;
+    font-size: 14px;
+        padding: 14px 16px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  
+  .up #button i:hover {
+    cursor: pointer;
+    background-color: #14A9DE;
+  }
+  .up #button i:active {
+    background-color: #555;
+  }
+  .up #button i.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+@media only screen and (max-width: 800px)
+{
+  .man
+  {
+    display : none ;
+  }
+  div.transbox1 {
+   position: absolute;
+   width: 100%;
+   top:25%;
+ }
+ 
+ .dafater h3
+ {
+     font-size : 20px  
+ }
+ .dafater p
+ {
+   font-size: 14px;
+ }
+ .info{
+   width: 100%;
+ }
+ 
+}

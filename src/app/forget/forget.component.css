@@ -1,0 +1,202 @@
+body{font-family: sky;}
+* {box-sizing: border-box;}
+
+.login
+{
+  text-align: center;
+
+}
+
+.account h2
+{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #fff;
+}
+.account p
+{
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #fff;
+  text-align:left;
+}
+.account a
+{
+color: #fff;
+text-decoration: none;
+
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: #eee;
+  color: #555;
+  min-width: 50px;
+  text-align: center;
+  
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.account
+{
+  direction: rtl;
+  margin: 0 auto;
+  display: table;
+  float: none;
+  margin-top: 20px;
+  padding: 20px 20px;
+  background: #394554;
+  margin-top: 3%;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #253C8C;
+  color: white;
+  padding: 10px 15px;
+  border-color: #253C8C;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+.forget
+{
+  background-color: #14A9DE;
+  border-color: #14A9DE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+ 
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
